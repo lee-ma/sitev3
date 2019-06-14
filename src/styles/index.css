@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+h1 {
+  font-family: 'Playfair-Display', serif;
+}
+
+.card {
+  background-color: #8C8C8C;
+  padding: 0 2.5% 0 2.5%;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
