@@ -1,16 +1,144 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins&display=swap');
 
 h1 {
   font-family: 'Playfair-Display', serif;
+  font-weight: 700;
+  font-size: 4em;
+  margin: 0;
+  color: #002253;
+}
+
+a, p, footer {
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
-  background-color: #8C8C8C;
-  padding: 0 2.5% 0 2.5%;
+  background-color: #aacdff;
+  padding: 0 5% 0 5%;
   height: 80vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  vertical-align: middle;
+  border-radius: 3px;
   flex-wrap: wrap;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.image {
+  width: 35%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.about {
+  width: 65%;
+  margin: auto;
+}
+
+.text {
+  margin-top: 5%; 
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+    display: none;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .about {
+    width: 90%;
+    order: 2;
+    margin-top: 2%;
+  }
+
+  .text {
+    max-width: 100%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+
+  .card {
+    padding: 2.5% 0 0 0;
+  }
+
+  .image {
+    width: 40vw;
+    vertical-align: middle;
+    order: 1;
+  }
+
+}
+
+@media only screen and (max-width: 475px) {
+  .image {
+    margin-top: 2vh;
+    height: fit-content;
+    width: 60vw;
+    margin-bottom: 0;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-height: 569px) {
+  .image {
+    width: 60vw;
+    margin-top: 5vh;
+    height: fit-content;
+    margin-bottom: 0;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+}
+
+.slide-in-from-bottom {
+  animation: slide-in-from-bottom 1.2s ease-in-out;
+  -webkit-animation: slide-in-from-bottom 1.2s ease-in-out;
+  -moz-animation: slide-in-from-bottom 1.2s ease-in-out;
+}
+
+@keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-moz-keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    -moz-transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -moz-transform: translateY(0%);
+  }
 }

@@ -30,13 +30,13 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: `90vw`,
+            maxWidth: `95vw`,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
         >
           <main>{children}</main>
-          <footer>
+          <footer style={{ color: "#fff", position: "absolute", bottom: "0"}}>
             © {new Date().getFullYear()}, Built with 💻 by Lee Ma
           </footer>
         </div>
