@@ -9,15 +9,15 @@ h1 {
 }
 
 a, p, footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', serif;
 }
 
 a {
-  color: #fff;
+  color: #0003C7;
 }
 
 a:visited {
-  color: #fff;
+  color: #0003C7;
 }
 
 a:hover {
@@ -25,18 +25,13 @@ a:hover {
 }
 
 .back:hover {
-  color: #fff;
+  color: #002253;
 }
 
 .card {
-  background-color: #BDC3C7;
-  padding: 0 5% 0 5%;
-  height: 87.5vh;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  padding: 2.5%;
   border-radius: 3px;
-  flex-wrap: wrap;
+  width: 100%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -47,39 +42,34 @@ a:hover {
 }
 
 .about {
-  width: 65%;
+  width: 100%;
   margin: auto;
 }
 
 .text {
   margin-top: 2.5%; 
-  max-width: 90%;
+  max-width: 90ch;
 }
 
 .spotify-meta {
   margin-left: 5%;
-  width: 80%;
+  width: 100%;
   vertical-align: middle;
 }
 
 .spotify-meta > p {
   margin-bottom: 2.5%;
-  color: #002253;
-  max-width: 80%;
+  color: #000;
   margin-right: 0;
-  width: 35ch; 
+  width: 100%;
   overflow: hidden; 
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 .spotify-album {
-  max-width: 15vw;
-  max-height: 15vw;
-}
-
-.show-mobile {
-  display: none;
+  max-width: 15vh;
+  max-height: 15vh;
 }
 
 .not-found{
@@ -90,10 +80,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
-  h1 {
-    display: none;
-  }
-
   .not-found {
     width: 100%;
     margin: auto;
@@ -104,15 +90,6 @@ a:hover {
     margin: auto;
     border-radius: 50%;
   }
-
-  .spotify-album {
-    max-width: 30vw;
-    max-height: 30vw;
-  }
-
-  .show-mobile {
-    display: inline-block;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -120,49 +97,14 @@ a:hover {
     font-size: 1.25em;
   }
 
-  .hide-mobile {
-    display: none;
-  }
-
-  .show-mobile {
-    display: inline-block;
-  }
-
   p {
     font-size: 1em;
-  }
-
-  .about {
-    width: 90%;
-    order: 2;
-    margin-top: 2%;
   }
 
   .text {
     max-width: 100%;
     margin-bottom: 5%;
     margin-top: 1%;
-  }
-
-  .card {
-    padding: 2.5% 0 0 0;
-  }
-
-  .image {
-    width: 30vh;
-    vertical-align: middle;
-    order: 1;
-  }
-}
-
-@media only screen and (max-height: 768px) {
-  .image {
-    width: 35%;
-  }
-
-  .spotify-album {
-    max-width: 20vh;
-    max-height: 20vh;
   }
 }
 

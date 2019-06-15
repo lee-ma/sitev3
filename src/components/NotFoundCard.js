@@ -9,7 +9,7 @@ const Card = () => (
       <NotFoundImage />
     </div>
     <h2 style={{marginBottom: "10%", marginTop: "10%", color: "#fff"}}>404! Where are you going, JR?</h2>
-    <a class="back" href="/">&lt; Take me back</a>
+    <a className="back" href="/">&lt; Take me back</a>
   </div>
 )
 

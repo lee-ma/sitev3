@@ -67,13 +67,13 @@ class SpotifyTrack extends React.Component {
   render() {
     const {recentlyPlayed, spotifyInfo} = this.state;
     return(
-      <div style={{width: "100%"}}>
-        <p style={{marginBottom: "2%", fontWeight: 700, fontFamily: 'Playfair-Display, serif', color: '#002253', fontSize: '1.25em'}}>What am I listening to?</p>
+      <div class="card">
+        <p style={{marginBottom: "2%", fontWeight: 700, fontSize: '1.25em'}}>Recently Played Song</p>
           {
             spotifyInfo &&
-            <a href={spotifyInfo.link} style={{display: "flex"}}>
-              <img src={spotifyInfo.imgSrc} class="spotify-album"/>
-              <div class="spotify-meta">
+            <a href={spotifyInfo.link} style={{display: "flex", width: "fit-content"}}>
+              <img src={spotifyInfo.imgSrc} className="spotify-album"/>
+              <div className="spotify-meta">
                 <p style={{fontWeight: 700}}>Track: {spotifyInfo.trackName}</p>
                 <p> {spotifyInfo.artists && spotifyInfo.artists.length > 1 ? 'Artists: ' : 'Artist: '}
                   {
@@ -96,7 +96,7 @@ class SpotifyTrack extends React.Component {
                         ?
                         'Currently playing!'
                         :
-                        `Last played: ${recentlyPlayed.date && recentlyPlayed.date['#text']}`
+                        `Last played: ${recentlyPlayed.date && new Date(recentlyPlayed.date['#text'] + " UTC").toLocaleString()}`
                     :
                       null
                   }

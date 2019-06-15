@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer style={{ color: "#fff", position: "absolute", bottom: "2px"}}>
+          <footer style={{ color: "#002253", position: "static", bottom: "0", marginTop: "5%"}}>
             © {new Date().getFullYear()}, Built with 💻 by Lee Ma
           </footer>
         </div>
