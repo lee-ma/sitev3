@@ -49,12 +49,13 @@ a:hover {
 
 .text {
   margin-top: 2.5%; 
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .spotify-meta {
   margin-left: 5%;
   width: 80%;
+  vertical-align: middle;
 }
 
 .spotify-meta > p {

@@ -94,7 +94,7 @@ class SpotifyTrack extends React.Component {
                     ?
                       recentlyPlayed['@attr']
                         ?
-                        'Currently listening!'
+                        'Currently playing!'
                         :
                         `Last played: ${recentlyPlayed.date && recentlyPlayed.date['#text']}`
                     :
