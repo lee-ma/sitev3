@@ -26,7 +26,7 @@ class SpotifyTrack extends React.Component {
   }
 
   componentDidMount() {
-    fetch(process.env.LASTFM_URL)
+    fetch(process.env.GATSBY_LASTFM_URL)
     .then(response => response.json())
     .then((res) => {
       this.setState({
@@ -37,7 +37,7 @@ class SpotifyTrack extends React.Component {
       const album = this.escape(res.album["#text"]);
       const artist = this.escape(res.artist["#text"]);
 
-      var url = `${process.env.SPOTIFY_TRACK}?title=${title}&artist=${artist}&album=${album}`
+      var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}&album=${album}`
 
       fetch(url)
       .then(response => response.json())
