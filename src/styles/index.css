@@ -3,7 +3,7 @@
 h1 {
   font-family: 'Playfair-Display', serif;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 7.5vh;
   margin: 0;
   color: #002253;
 }
@@ -12,10 +12,22 @@ a, p, footer {
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #002253;
+}
+
 .card {
-  background-color: #aacdff;
+  background-color: #BDC3C7;
   padding: 0 5% 0 5%;
-  height: 80vh;
+  height: 87.5vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,18 +48,71 @@ a, p, footer {
 }
 
 .text {
-  margin-top: 5%; 
+  margin-top: 2.5%; 
   max-width: 80%;
+}
+
+.spotify-meta {
+  margin-left: 5%;
+  width: 80%;
+}
+
+.spotify-meta > p {
+  margin-bottom: 2.5%;
+  color: #002253;
+  max-width: 80%;
+  margin-right: 0;
+  width: 35ch; 
+  overflow: hidden; 
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.spotify-album {
+  max-width: 15vw;
+  max-height: 15vw;
+}
+
+.show-mobile {
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {
   h1 {
-    font-size: 24px;
     display: none;
   }
 
+  .image {
+    width: 25vh;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .spotify-album {
+    max-width: 30vw;
+    max-height: 30vw;
+  }
+
+  .show-mobile {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.25em;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: inline-block;
+  }
+
   p {
-    font-size: 13px;
+    font-size: 1em;
   }
 
   .about {
@@ -67,31 +132,32 @@ a, p, footer {
   }
 
   .image {
-    width: 40vw;
+    width: 30vh;
     vertical-align: middle;
     order: 1;
   }
+}
 
+@media only screen and (max-height: 768px) {
+  .image {
+    width: 35%;
+  }
+
+  .spotify-album {
+    max-width: 20vh;
+    max-height: 20vh;
+  }
 }
 
 @media only screen and (max-width: 475px) {
-  .image {
-    margin-top: 2vh;
-    height: fit-content;
-    width: 60vw;
-    margin-bottom: 0;
+  p {
+    font-size: 13px;
   }
 
-  .about {
-    margin-top: 0;
-  }
-}
-
-@media only screen and (max-height: 569px) {
   .image {
-    width: 60vw;
     margin-top: 5vh;
     height: fit-content;
+    width: 60vw;
     margin-bottom: 0;
   }
 
@@ -99,8 +165,8 @@ a, p, footer {
     margin-top: 0;
   }
 
-  .hide-mobile {
-    display: none;
+  .spotify-meta > p {
+    max-width: 70%;
   }
 }
 

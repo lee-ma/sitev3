@@ -26,17 +26,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div
           style={{
-            margin: `0 auto`,
+            margin: `5vh auto`,
             maxWidth: `95vw`,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
         >
           <main>{children}</main>
-          <footer style={{ color: "#fff", position: "absolute", bottom: "0"}}>
+          <footer style={{ color: "#fff", position: "absolute", bottom: "2px"}}>
             © {new Date().getFullYear()}, Built with 💻 by Lee Ma
           </footer>
         </div>
