@@ -5,7 +5,7 @@ import SpotifyTrack from './SpotifyTrack'
 
 const About = () => (
   <div className="about">
-    <h1>Hi, I'm Lee,</h1>
+    <h1>Hi, I'm Lee</h1>
     <p className="text">
       I'm a Computer Engineering student at the University of Waterloo, originally from Calgary, Alberta.
       At school, I am an executive member of the <a href="https://entsoc.ca">Entrepreneurship Society</a>,&nbsp;
