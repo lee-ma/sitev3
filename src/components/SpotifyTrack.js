@@ -66,8 +66,8 @@ class SpotifyTrack extends React.Component {
   render() {
     const {recentlyPlayed, spotifyInfo} = this.state;
     return(
-      <div>
-        <h1 style={{marginTop: "5%"}}>Recently Played Song</h1>
+      <div style={{marginTop: "5%"}}>
+        <h1>Recently Played Song</h1>
           {
             spotifyInfo &&
             <a href={spotifyInfo.link} style={{display: "flex", overflow: "scroll", marginTop: "1%"}} target="_blank">
