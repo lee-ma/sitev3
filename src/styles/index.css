@@ -41,14 +41,13 @@ a:hover {
 }
 
 .about {
-  width: 100%;
+  max-width: 90ch;
   margin: auto;
   margin-top: 5%;
 }
 
 .text {
-  margin-top: 1%; 
-  max-width: 90ch;
+  margin-top: 1%;
 }
 
 .spotify-meta {
@@ -68,8 +67,8 @@ a:hover {
 }
 
 .spotify-album {
-  max-width: 15vh;
-  max-height: 15vh;
+  max-width: 17.5vh;
+  max-height: 17.5vh;
 }
 
 .not-found{
@@ -122,10 +121,6 @@ a:hover {
 
   .about {
     margin-top: 10%;
-  }
-
-  .spotify-meta > p {
-    max-width: 75%;
   }
 }
 

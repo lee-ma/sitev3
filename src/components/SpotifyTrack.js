@@ -14,7 +14,6 @@ class SpotifyTrack extends React.Component {
     if (typeof(val)!="string") return val;
     return val      
         .replace(/[\\]/g, '')
-        .replace(/[\/]/g, '')
         .replace(/[\b]/g, '')
         .replace(/[\f]/g, '')
         .replace(/[\n]/g, '')
@@ -71,7 +70,7 @@ class SpotifyTrack extends React.Component {
         <h1 style={{marginTop: "5%"}}>Recently Played Song</h1>
           {
             spotifyInfo &&
-            <a href={spotifyInfo.link} style={{display: "flex", width: "fit-content", marginTop: "1%"}} target="_blank">
+            <a href={spotifyInfo.link} style={{display: "flex", overflow: "scroll", marginTop: "1%"}} target="_blank">
               <img src={spotifyInfo.imgSrc} className="spotify-album"/>
               <div className="spotify-meta">
                 <p style={{fontWeight: 700}}>Track: {spotifyInfo.trackName}</p>
