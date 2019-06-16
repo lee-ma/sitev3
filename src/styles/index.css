@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
 
 h1 {
-  font-family: 'Playfair-Display', serif;
+  font-family: 'Heebo', sans-serif;
   font-weight: 700;
-  font-size: 7.5vh;
-  margin: 0;
-  color: #002253;
+  font-size: 2.5vh;
+  margin-bottom: 0;
 }
 
 a, p, footer {
-  font-family: 'Poppins', serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 a {
@@ -44,10 +43,11 @@ a:hover {
 .about {
   width: 100%;
   margin: auto;
+  margin-top: 5%;
 }
 
 .text {
-  margin-top: 2.5%; 
+  margin-top: 1%; 
   max-width: 90ch;
 }
 
@@ -121,11 +121,11 @@ a:hover {
   }
 
   .about {
-    margin-top: 0;
+    margin-top: 10%;
   }
 
   .spotify-meta > p {
-    max-width: 70%;
+    max-width: 75%;
   }
 }
 

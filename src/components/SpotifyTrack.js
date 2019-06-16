@@ -67,11 +67,11 @@ class SpotifyTrack extends React.Component {
   render() {
     const {recentlyPlayed, spotifyInfo} = this.state;
     return(
-      <div class="card">
-        <p style={{marginBottom: "2%", fontWeight: 700, fontSize: '1.25em'}}>Recently Played Song</p>
+      <div>
+        <h1 style={{marginTop: "5%"}}>Recently Played Song</h1>
           {
             spotifyInfo &&
-            <a href={spotifyInfo.link} style={{display: "flex", width: "fit-content"}}>
+            <a href={spotifyInfo.link} style={{display: "flex", width: "fit-content", marginTop: "1%"}}>
               <img src={spotifyInfo.imgSrc} className="spotify-album"/>
               <div className="spotify-meta">
                 <p style={{fontWeight: 700}}>Track: {spotifyInfo.trackName}</p>

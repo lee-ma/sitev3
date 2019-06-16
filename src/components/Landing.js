@@ -6,6 +6,7 @@ import SpotifyTrack from './SpotifyTrack'
 
 const Landing = () => (
   <div className="slide-in-from-bottom">
+    {/* <h1 style={{textAlign: "left", maxWidth: "fit-content", margin:"auto"}}>Hi, my name is Lee</h1> */}
     <div className="image">
       <LandingImage />
     </div>
