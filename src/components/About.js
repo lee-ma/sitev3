@@ -8,8 +8,8 @@ const About = () => (
     <h1>Hi, I'm Lee,</h1>
     <p className="text">
       I'm a Computer Engineering student at the University of Waterloo.
-      At school, I am a member of the <a href="https://entsoc.ca">Entrepreneurship Society</a>,&nbsp;
-      and I was the sole developer of the 2019 <a href="http://enghack.com">EngHack website</a>.
+      At school, I am an executive member of the <a href="https://entsoc.ca">Entrepreneurship Society</a>,&nbsp;
+      and I was the sole developer of the 2019 <a href="http://enghack.com">EngHack website</a>, a hackathon that received 400+ applications.
       Outside of school I love any outdoor activity in the mountains, learning to cook new recipes, and going to Costco for soft serve.
     </p>
     <p>
