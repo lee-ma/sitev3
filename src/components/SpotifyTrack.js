@@ -69,6 +69,7 @@ class SpotifyTrack extends React.Component {
       <div style={{marginTop: "5%"}}>
         <h1>Recently Played Song</h1>
           {
+            !spotifyInfo ? <p>Loading...</p> : 
             spotifyInfo &&
             <a href={spotifyInfo.link} style={{display: "flex", overflow: "scroll", marginTop: "1%"}} target="_blank">
               <img src={spotifyInfo.imgSrc} className="spotify-album"/>
