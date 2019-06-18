@@ -46,7 +46,6 @@ class Recommendations extends React.Component {
           <li>Pampa Brazilian Steakhouse</li>
           <li>Native Tongues Tacqueria</li>
           <li>Korean Village</li>
-          <li>Lorenzo's Pizza</li>
         </ul>
         <h4>Clubs & Bars</h4>
         <ul>
@@ -82,6 +81,8 @@ class Recommendations extends React.Component {
           <li>Lorenzo's Pizza</li>
           <li>Buffalo Wild Wings on Macleod</li>
           <li>Pho Huong Viet</li>
+          <li>Simple Simon's Pies</li>
+          <li>Western Canada High School</li>
         </ul>
         <h3>Kitchener-Waterloo</h3>
         <h4>Food & Drink</h4>
