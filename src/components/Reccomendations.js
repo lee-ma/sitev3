@@ -126,6 +126,10 @@ class Recommendations extends React.Component {
           <li>Touring the Googleplex in Mountain View</li>
           <li>Plenty of hiking trails to choose from (not as good as the Rockies though)</li>
         </ul>
+        <h4>Cool places to chill</h4>
+        <ul>
+          <li>The space behind the Union Square Apple store</li>
+        </ul>
         <h3>Toronto</h3>
         <h4>Food & Drink</h4>
         <ul>
