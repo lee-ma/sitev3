@@ -24,6 +24,31 @@ class SpotifyTrack extends React.Component {
         .replace(/[\']/g, '');
   }
 
+  setSpotifyInfo = url => {
+    fetch(url)
+    .then(response => response.json())
+    .then((res) => {
+
+      const link = res.external_urls.spotify;
+      const imgSrc = res.album.images[0].url;
+      const artists = res.artists || res.artist;
+      const trackName = res.name;
+      const album = res.album.name;
+
+      const trackState = {
+        link,
+        imgSrc,
+        artists,
+        trackName,
+        album
+      }
+
+      this.setState({
+        spotifyInfo: trackState
+      })
+    });
+  }
+
   componentDidMount() {
     fetch(process.env.GATSBY_LASTFM_URL)
     .then(response => response.json())
@@ -38,28 +63,17 @@ class SpotifyTrack extends React.Component {
 
       var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}&album=${album}`
 
-      fetch(url)
-      .then(response => response.json())
-      .then((res) => {
+      this.setSpotifyInfo(url);
+    })
+    .catch(error => {
 
-        const link = res.external_urls.spotify;
-        const imgSrc = res.album.images[0].url;
-        const artists = res.artists || res.artist;
-        const trackName = res.name;
-        const album = res.album.name;
+      // Set as Africa by Toto if LastFM API doesn't work.
+      const title = "Africa";
+      const artist = "Toto";
 
-        const trackState = {
-          link,
-          imgSrc,
-          artists,
-          trackName,
-          album
-        }
+      var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}`;
 
-        this.setState({
-          spotifyInfo: trackState
-        })
-      })
+      this.setSpotifyInfo(url);
     });
   }
 
