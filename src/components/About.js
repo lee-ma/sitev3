@@ -13,8 +13,8 @@ const About = () => (
       Outside of school I love any outdoor activity in the mountains, learning to cook new recipes, and going to Costco for soft serve.
     </p>
     <p>
-      Learn more about my <a rel="noopener noreferrer" href="leemaresume.pdf" target="_blank">Experience</a> or find me on <a href="https://www.github.com/lee-ma">Github</a>,&nbsp;
-      <a href="https://www.linkedin.com/in/lma321">LinkedIn</a>.
+      Learn more about my <a rel="noopener noreferrer" href="leemaresume.pdf" target="_blank">experience</a> and find me on &nbsp;
+      <a href="https://www.github.com/lee-ma">Github</a> or <a href="https://www.linkedin.com/in/lma321">LinkedIn</a>.
     </p>
   </div>
 )
