@@ -109,10 +109,12 @@ class Recommendations extends React.Component {
         <h3>San Francisco Bay Area</h3>
         <h4>Food & Drink</h4>
         <ul>
+          <li>Mensho Tokyo SF (Opens at 5, line up starts at 4:30)</li>
+          <li>Take out dim sum at Good Mong Kok in Chinatown ($5 will get you quite a bit!)</li>
           <li>Burger @ In n' Out, fries are ok</li>
           <li>Uji Time Dessert</li>
           <li>Hot Fudge Sundae @ Ghiardelli Square</li>
-          <li>Boba Guys</li>
+          <li>Boba Guys (Korean Banana Milk is my favourite)</li>
           <li>Bonchon Korean Fried Chicken</li>
           <li>Franciscan Crab</li>
           <li>Cha Cha Cha</li>
@@ -120,6 +122,7 @@ class Recommendations extends React.Component {
         <h4>Activities</h4>
         <ul>
           <li>Not walking down Turk St from Market St</li>
+          <li>Checking out live music and art displays at Union Square</li>
           <li>Golden Gate Park</li>
           <li>Crissy Field</li>
           <li>Wine tasting @ MJA Vineyards in Santa Cruz</li>
