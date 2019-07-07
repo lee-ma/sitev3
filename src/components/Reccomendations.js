@@ -118,20 +118,24 @@ class Recommendations extends React.Component {
           <li>Bonchon Korean Fried Chicken</li>
           <li>Franciscan Crab</li>
           <li>Cha Cha Cha</li>
+          <li>Super Duper Burgers</li>
         </ul>
         <h4>Activities</h4>
         <ul>
           <li>Not walking down Turk St from Market St</li>
           <li>Checking out live music and art displays at Union Square</li>
           <li>Golden Gate Park</li>
+          <li>Palo Alto Annual 4th of July Chili Cook-off</li>
+          <li>Fourth of July Fireworks Spectacular with the San Francisco Symphony</li>
           <li>Crissy Field</li>
           <li>Wine tasting @ MJA Vineyards in Santa Cruz</li>
           <li>Touring the Googleplex in Mountain View</li>
-          <li>Plenty of hiking trails to choose from (not as good as the Rockies though)</li>
+          <li>Plenty of hiking trails to choose from</li>
         </ul>
         <h4>Cool places to chill</h4>
         <ul>
           <li>The space behind the Union Square Apple store</li>
+          <li>Anywhere on Stanford campus</li>
         </ul>
         <h3>Toronto</h3>
         <h4>Food & Drink</h4>
