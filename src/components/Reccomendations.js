@@ -110,8 +110,8 @@ class Recommendations extends React.Component {
         <h4>Food & Drink</h4>
         <ul>
           <li>Mensho Tokyo SF (Opens at 5, line up starts at 4:30)</li>
-          <li>Take out dim sum at Good Mong Kok in Chinatown ($5 will get you quite a bit!)</li>
-          <li>Burger @ In n' Out, fries are ok</li>
+          <li>Take out dim sum @ Good Mong Kok in Chinatown ($5 will get you quite a bit!)</li>
+          <li>In n' Out</li>
           <li>Uji Time Dessert</li>
           <li>Hot Fudge Sundae @ Ghiardelli Square</li>
           <li>Boba Guys (Korean Banana Milk is my favourite)</li>
@@ -122,7 +122,6 @@ class Recommendations extends React.Component {
         </ul>
         <h4>Activities</h4>
         <ul>
-          <li>Not walking down Turk St from Market St</li>
           <li>Checking out live music and art displays at Union Square</li>
           <li>Golden Gate Park</li>
           <li>Palo Alto Annual 4th of July Chili Cook-off</li>
@@ -135,6 +134,7 @@ class Recommendations extends React.Component {
         <h4>Cool places to chill</h4>
         <ul>
           <li>The space behind the Union Square Apple store</li>
+          <li>Alamo Square Park</li>
           <li>Anywhere on Stanford campus</li>
         </ul>
         <h3>Toronto</h3>
