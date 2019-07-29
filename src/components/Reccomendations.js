@@ -110,7 +110,8 @@ class Recommendations extends React.Component {
         <h4>Food & Drink</h4>
         <ul>
           <li>Mensho Tokyo SF (Opens at 5, line up starts at 4:30)</li>
-          <li>Take out dim sum @ Good Mong Kok in Chinatown ($5 will get you quite a bit!)</li>
+          <li>Michael's Grill and Tacqueria in Monterey</li>
+          <li>Take out dim sum in Chinatown ($5 will get you quite a bit!)</li>
           <li>In n' Out</li>
           <li>Uji Time Dessert</li>
           <li>Hot Fudge Sundae @ Ghiardelli Square</li>
@@ -119,9 +120,11 @@ class Recommendations extends React.Component {
           <li>Franciscan Crab</li>
           <li>Cha Cha Cha</li>
           <li>Super Duper Burgers</li>
+          <li>Chicken Meets Rice in Santa Clara</li>
         </ul>
         <h4>Activities</h4>
         <ul>
+          <li>Skydiving at Monterey Bay</li>
           <li>Checking out live music and art displays at Union Square</li>
           <li>Golden Gate Park</li>
           <li>Palo Alto Annual 4th of July Chili Cook-off</li>
