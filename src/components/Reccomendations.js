@@ -31,7 +31,7 @@ class Recommendations extends React.Component {
   render() {
     return(
       <div className="recommendations">
-      <h1>Recommendations in areas I've lived or been to a lot</h1>
+      <h1>Things to do in areas I've lived or been to a lot</h1>
       <a style={{marginTop: "1%"}} className={this.state.expandClass} href="javascript:void(0)" onClick={this.showRecommendations}>Expand</a>
       <div className={this.state.recommendationsClass} style={{marginTop: "1.5%"}}>
         <h3>Calgary/Alberta</h3>

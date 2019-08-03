@@ -3,6 +3,7 @@ import React from 'react'
 import LandingImage from './LandingImage'
 import About from './About'
 import SpotifyTrack from './SpotifyTrack'
+import SoftServeTierList from './SoftServe'
 import Recommendations from './Reccomendations'
 
 const Landing = () => (
@@ -14,6 +15,7 @@ const Landing = () => (
     <div style={{textAlign: "left", maxWidth: "90ch", margin:"auto"}}>
       <About className="about"/>
       <SpotifyTrack />
+      <SoftServeTierList />
       <Recommendations />
     </div>
   </div>
