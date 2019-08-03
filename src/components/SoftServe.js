@@ -6,8 +6,12 @@ const SoftServe = () => (
     <ol style={{marginTop: "1%"}}>
       <li>Costco Food Court Cone</li>
       <li>Dairy Queen Dipped Cone</li>
-      <li>Burger King Cone</li>
       <li>McDonald's Cone</li>
+<<<<<<< Updated upstream
+      <li>Burger King Cone</li>
+=======
+      <li>Chick-fil-A Cone</li>
+>>>>>>> Stashed changes
       <li>Wendy's Frosty</li>
     </ol>
   </div>
