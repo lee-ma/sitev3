@@ -9,7 +9,7 @@ const About = () => (
     <p className="text">
       I'm a Computer Engineering student at the University of Waterloo, originally from Calgary, Alberta.
       At school, I am an executive member of the <a href="https://entsoc.ca">Entrepreneurship Society</a>,
-      and I was the sole developer of the 2019 <a href="http://enghack.com">EngHack website</a>, a MLH hackathon that received 560+ applications.
+      and I was the sole developer of the 2019 <a href="http://enghack.com">EngHack website</a>, a MLH hackathon that received 600+ applications.
       Outside of school I love any outdoor activity in the mountains, spicy food, and going to Costco for soft serve.
     </p>
     <p>
