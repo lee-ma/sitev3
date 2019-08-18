@@ -63,6 +63,7 @@ class Recommendations extends React.Component {
           <li>Watching fireworks on Canada Day <a href="https://goo.gl/maps/JMZnpqnJxAoq49KU6">here</a></li>
           <li>Prince's Island Park</li>
           <li>Biking around Glenmore Resevoir trail</li>
+          <li>Calgary Stampede</li>
           <li>Skating at Olympic Plaza during winter</li>
         </ul>
         <h4>Activities outside the city</h4>
@@ -104,7 +105,6 @@ class Recommendations extends React.Component {
         <ul>
           <li>Apollo Cinema</li>
           <li>Ribs & Craft Beer Festival</li>
-          <li>Throwing frisbee in Waterloo park</li>
         </ul>
         <h3>San Francisco Bay Area</h3>
         <h4>Food & Drink</h4>
@@ -120,11 +120,13 @@ class Recommendations extends React.Component {
           <li>Franciscan Crab</li>
           <li>Cha Cha Cha</li>
           <li>Super Duper Burgers</li>
+          <li>The Counter Custom Burgers</li>
           <li>Chicken Meets Rice in Santa Clara</li>
         </ul>
         <h4>Activities</h4>
         <ul>
           <li>Skydiving at Monterey Bay</li>
+          <li>Outside Lands Music Festival</li>
           <li>Checking out live music and art displays at Union Square</li>
           <li>Golden Gate Park</li>
           <li>Palo Alto Annual 4th of July Chili Cook-off</li>
