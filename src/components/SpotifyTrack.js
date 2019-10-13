@@ -7,7 +7,7 @@ class SpotifyTrack extends React.Component {
     this.state={
       recentlyPlayed: null,
       spotifyInfo: null,
-      interval,
+      interval: null,
     };
   }
 
