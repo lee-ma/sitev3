@@ -6,7 +6,8 @@ class SpotifyTrack extends React.Component {
 
     this.state={
       recentlyPlayed: null,
-      spotifyInfo: null
+      spotifyInfo: null,
+      interval,
     };
   }
 
@@ -78,7 +79,14 @@ class SpotifyTrack extends React.Component {
   }
 
   componentDidMount() {
-    setInterval(this.getCurrentlyPlaying(), 240000);
+    this.getCurrentlyPlaying();
+    const trackFetchInterval = setInterval(this.getCurrentlyPlaying(), 240000);
+    this.setState({ interval: trackFetchInterval });
+
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.interval);
   }
 
   render() {
