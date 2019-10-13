@@ -10,6 +10,34 @@ class SpotifyTrack extends React.Component {
     };
   }
 
+  getCurrentlyPlaying = () => {
+    fetch(process.env.GATSBY_LASTFM_URL)
+    .then(response => response.json())
+    .then((res) => {
+      this.setState({
+        recentlyPlayed: res
+      });
+
+      const title = this.escape(res.name);
+      const album = this.escape(res.album["#text"]);
+      const artist = this.escape(res.artist["#text"]);
+
+      var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}&album=${album}`
+
+      this.setSpotifyInfo(url);
+    })
+    .catch(error => {
+
+      // Set as Africa by Toto if LastFM API doesn't work.
+      const title = "Africa";
+      const artist = "Toto";
+
+      var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}`;
+
+      this.setSpotifyInfo(url);
+    });
+  }
+
   escape = (val) => {
     if (typeof(val)!="string") return val;
     return val      
@@ -50,31 +78,7 @@ class SpotifyTrack extends React.Component {
   }
 
   componentDidMount() {
-    fetch(process.env.GATSBY_LASTFM_URL)
-    .then(response => response.json())
-    .then((res) => {
-      this.setState({
-        recentlyPlayed: res
-      });
-
-      const title = this.escape(res.name);
-      const album = this.escape(res.album["#text"]);
-      const artist = this.escape(res.artist["#text"]);
-
-      var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}&album=${album}`
-
-      this.setSpotifyInfo(url);
-    })
-    .catch(error => {
-
-      // Set as Africa by Toto if LastFM API doesn't work.
-      const title = "Africa";
-      const artist = "Toto";
-
-      var url = `${process.env.GATSBY_SPOTIFY_TRACK}?title=${title}&artist=${artist}`;
-
-      this.setSpotifyInfo(url);
-    });
+    setInterval(this.getCurrentlyPlaying(), 240000);
   }
 
   render() {
