@@ -31,7 +31,7 @@ class Recommendations extends React.Component {
   render() {
     return(
       <div className="recommendations">
-      <h1>Things to do in areas I've lived or been to a lot</h1>
+      <h1>Things to do in places I've lived or worked</h1>
       <a style={{marginTop: "1%"}} className={this.state.expandClass} href="javascript:void(0)" onClick={this.showRecommendations}>Expand</a>
       <div className={this.state.recommendationsClass} style={{marginTop: "1.5%"}}>
         <h3>Calgary/Alberta</h3>
@@ -83,7 +83,36 @@ class Recommendations extends React.Component {
           <li>Buffalo Wild Wings on Macleod</li>
           <li>Pho Huong Viet</li>
           <li>Simple Simon's Pies</li>
-          <li>Western Canada High School</li>
+        </ul>
+        <h3>Greater Boston Area</h3>
+        <h4>Food & Drink</h4>
+        <ul>
+          <li>Yardhouse Kitchen & Bar</li>
+          <li>Citrus & Salt</li>
+          <li>The Oyster Club</li>
+          <li>Itadaki</li>
+          <li>Summer Shack</li>
+          <li>Pinnochio's Pizza and Subs</li>
+          <li>The original Regina Pizza</li>
+          <li>Dirty Water Dough Company</li>
+          <li>Boston Sail Loft</li>
+          <li>Correanos</li>
+          <li>Finnagle a Bagel</li>
+        </ul>
+        <h4>Activities</h4>
+        <ul>
+          <li>Any sporting venue in Boston is real nice</li>
+          <li>Being on the T when it inevitably breaks down on you</li>
+          <li>Complaining about the T :^)</li>
+          <li>Top of Prudential Tower has a nice 360 view of everything</li>
+          <li>Boston Public Library is a nice place to sit down and read/work</li>
+          <li>Newbury Street</li>
+        </ul>
+        <h4>Cool places to chill</h4>
+        <ul>
+          <li>The space behind the Union Square Apple store</li>
+          <li>Alamo Square Park</li>
+          <li>Anywhere on Stanford campus</li>
         </ul>
         <h3>Kitchener-Waterloo</h3>
         <h4>Food & Drink</h4>
