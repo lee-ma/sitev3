@@ -108,12 +108,6 @@ class Recommendations extends React.Component {
           <li>Boston Public Library is a nice place to sit down and read/work</li>
           <li>Newbury Street</li>
         </ul>
-        <h4>Cool places to chill</h4>
-        <ul>
-          <li>The space behind the Union Square Apple store</li>
-          <li>Alamo Square Park</li>
-          <li>Anywhere on Stanford campus</li>
-        </ul>
         <h3>Kitchener-Waterloo</h3>
         <h4>Food & Drink</h4>
         <ul>
