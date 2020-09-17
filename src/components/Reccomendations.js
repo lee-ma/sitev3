@@ -16,14 +16,14 @@ class Recommendations extends React.Component {
 
   showRecommendations = () => {
     this.setState({
-      recommendationsClass: "show slide-in-from-bottom",
+      recommendationsClass: "show",
       expandClass: "hide"
     })
   }
 
   hideRecommendations = () => {
     this.setState({
-      recommendationsClass: "hide fade-out",
+      recommendationsClass: "hide",
       expandClass: "show"
     })
   }
