@@ -39,28 +39,20 @@ class Recommendations extends React.Component {
         <ul>
           <li>Village Ice Cream</li>
           <li>My Favourite Ice Cream Shoppe</li>
-          <li>Custard Shake @ Clive Burger</li>
+          <li>Clive Burger</li>
           <li>Analog Coffee on 17th</li>
           <li>Cakeface Craft Beer @ Cold Garden Beverage Co.</li>
           <li>Peter's Drive-in</li>
           <li>Pampa Brazilian Steakhouse</li>
           <li>Native Tongues Tacqueria</li>
-          <li>Korean Village</li>
-        </ul>
-        <h4>Clubs & Bars</h4>
-        <ul>
-          <li>National on 8th</li>
-          <li>Commonwealth Bar & Stage</li>
-          <li>Joyce on 4th</li>
-          <li>WURST</li>
-          <li>Cowboys tent during Stampede</li>
-          <li>Ducky's Pub</li>
+          <li>V Burger on 17th</li>
+          <li>The Beltliner</li>
+          <li>Wow Chicken</li>
         </ul>
         <h4>Activities in the city</h4>
         <ul>
           <li>Rafting down the Bow river</li>
           <li>Devonian Gardens @ The Core</li>
-          <li>Watching fireworks on Canada Day <a href="https://goo.gl/maps/JMZnpqnJxAoq49KU6">here</a></li>
           <li>Prince's Island Park</li>
           <li>Biking around Glenmore Resevoir trail</li>
           <li>Calgary Stampede</li>
@@ -68,11 +60,8 @@ class Recommendations extends React.Component {
         </ul>
         <h4>Activities outside the city</h4>
         <ul>
-          <li>Morraine Lake in Banff</li>
-          <li>Johnston Canyon or Grotto Canyon during the winter to walk on the ice</li>
-          <li>Skiing @ Sunshine Village</li>
-          <li>Lake Louise</li>
-          <li>Honestly can't go wrong by picking any mountain around Banff/Kananaskis and skiing/hiking it</li>
+          <li>Hiking in Banff/Kananaskis</li>
+          <li>Skiing @ Sunshine Village or Lake Louise</li>
         </ul>
         <h4>Places that have a special place in my heart</h4>
         <ul>
