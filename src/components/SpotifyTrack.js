@@ -93,7 +93,7 @@ class SpotifyTrack extends React.Component {
     const {recentlyPlayed, spotifyInfo} = this.state;
     return(
       <div style={{marginTop: "5%"}}>
-        <h1>Recently Played Song</h1>
+        <h1>What I've Been Listening To</h1>
           {
             !spotifyInfo ? <p>Loading...</p> : 
             spotifyInfo &&
