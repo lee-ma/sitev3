@@ -8,7 +8,7 @@ const About = () => (
     <h1>Hi, I'm Lee 👋</h1>
     <p className="text">
       I'm a Computer Engineering student at the University of Waterloo, originally from Calgary, Alberta.
-      I am currently an SDE Intern at Amazon (AWS).
+      I will be a SWE Intern at Facebook (Instagram) this Fall.
       At UW, I was an executive member of the <a href="https://entsoc.ca">Entrepreneurship Society</a>, 
       a Project Developer with <a href="https://uwblueprint.org"> UW Blueprint</a>,
       and the developer of the 2019 <a href="http://enghack.com">EngHack website</a>, a MLH hackathon that received 600+ applications.
